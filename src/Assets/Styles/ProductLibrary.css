@@ -1,0 +1,117 @@
+.vitamins input,
+.minerals input,
+.probiotics input,
+.herbs input,
+.specialty input {
+  display: none;
+}
+.minerals__handler,
+.vitamins__handler,
+.probiotics__handler,
+.herbs__handler,
+.specialty__handler {
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+}
+.vitamins__title,
+.minerals__title,
+.probiotics__title,
+.specialty__title,
+.herbs__title {
+  font-size: 1.8rem;
+}
+.vitamins__icon,
+.minerals__icon,
+.specialty__icon,
+.herbs__icon,
+.probiotics__icon {
+  transition: transform 250ms ease-in-out;
+}
+.vitamins input:checked ~ .vitamins__body,
+.minerals input:checked ~ .minerals__body,
+.probiotics input:checked ~ .probiotics__body,
+.herbs input:checked ~ .herbs__body,
+.specialty input:checked ~ .specialty__body {
+  height: auto;
+  padding: 0 10px 10px;
+}
+
+.vitamins input:checked + .vitamins__handler .vitamins__icon,
+.minerals input:checked + .minerals__handler .minerals__icon,
+.probiotics input:checked + .probiotics__handler .probiotics__icon,
+.herbs input:checked + .herbs__handler .herbs__icon,
+.specialty input:checked + .specialty__handler .specialty__icon {
+  transform: rotate(45deg);
+}
+
+.vitamins__body,
+.minerals__body,
+.probiotics__body,
+.herbs__body,
+.specialty__body {
+  height: 0;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.colorProductShow {
+  background-color: #fff089;
+  border-radius: 40px;
+}
+
+.exploreBtnLibrary {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 150px;
+  padding: 10px;
+}
+
+.rightFor {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.startQuiz {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sliderSettings {
+  margin-top: 3rem;
+}
+.productLibHead {
+  display: none;
+}
+
+.paraHead {
+  font-size: 25px;
+}
+.responsiveLib {
+  display: none;
+}
+
+.productFirstCardPage {
+  border-radius: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .productFirstCardPage {
+    display: none !important;
+  }
+  .mineralsHead {
+    display: none !important;
+  }
+  .productLibHead {
+    display: block;
+  }
+  .responsiveLib {
+    display: block;
+  }
+}

@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .browseLibrary {
+    display: none !important;
+  }
+  .personalizedHidden{
+    display: none !important;
+  }
+}

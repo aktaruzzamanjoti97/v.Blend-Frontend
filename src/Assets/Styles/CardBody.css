@@ -1,0 +1,113 @@
+.startQuizBorder {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 13rem;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.completedQuiz {
+  background-color: #fff089;
+  border-radius: 25px;
+}
+
+.avatars {
+  border-radius: 40px;
+  background-color: #fffffe !important;
+  z-index: 1;
+  padding: 10px;
+  margin: 10px;
+}
+
+.middleCardFirstPage {
+  background-color: #ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.aboutAt {
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+.linkCard {
+  font-size: 20px !important;
+  border: 1px solid #000000;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.healthNeeds {
+  font-size: 35px;
+}
+
+.juiceCover {
+  width: 100%;
+  height: 270px;
+}
+
+.uniqueIcon {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.libraryTwo {
+  background-color: #d9eafd;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.libraryTwoHeader {
+  border-radius: 20px;
+  /* border: 1px solid #ffffff; */
+  background-color: #ffffff;
+  padding: 12px;
+}
+
+.vitaminHeader {
+  border-radius: 20px;
+  /* border: 1px solid #ffffff; */
+  background-color: #ffffff;
+  padding: 12px;
+  width: 190px;
+  font-size: 25px;
+  /* width: 50px; */
+}
+
+.unlock {
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.rightIconCol {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.unlock {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .hideFirstCard {
+    display: none !important;
+  }
+  .wholeLibraryTwo {
+    display: none !important;
+  }
+  .unlock {
+    display: block !important;
+  }
+}
